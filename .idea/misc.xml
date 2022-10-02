@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/dev/androidWs/android-kotlin-template-navigation-viewmodel/app/src/main/res/layout/fragment_bold.xml" value="0.2558876811594203" />
+        <entry key="..\:/dev/androidWs/android-kotlin-template-navigation-viewmodel/app/src/main/res/layout/fragment_italic.xml" value="0.2558876811594203" />
         <entry key="..\:/dev/androidWs/android-kotlin-template-navigation/app/src/main/res/drawable-v24/format_bold-24px.xml" value="0.1185" />
         <entry key="..\:/dev/androidWs/android-kotlin-template-navigation/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1185" />
         <entry key="..\:/dev/androidWs/android-kotlin-template-navigation/app/src/main/res/drawable/format_bold-24dp.xml" value="0.1185" />

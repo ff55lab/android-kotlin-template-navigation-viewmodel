@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Navigation Template</string>
+    <string name="app_name">Navigation Template View Model</string>
 
     <string name="bold">Bold</string>
     <string name="italic">Italic</string>
@@ -17,4 +17,8 @@
     <string name="fragment_italic">Fragment Italic</string>
     <string name="fragment_parking">Fragment Parking</string>
     <string name="fragment_title">Fragment Title</string>
+
+    <string name="show_shared_value">Show shared value</string>
+    <string name="show_fragment_value">Show fragment value</string>
+    <string name="amend_shared_value">Amend shared value</string>
 </resources>

@@ -1,11 +1,13 @@
 package com.example.navigation
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import com.example.navigation.databinding.ActivityMainBinding
+import com.example.navigation.viewmodel.ActivityVM
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,6 +15,12 @@ class MainActivity : AppCompatActivity() {
     internal val binding get() = _binding
 
     private lateinit var _navController: NavController
+
+    //region shared view model
+    // accessible by fragments within this activity
+    private val _activityViewModel: ActivityVM by viewModels()
+    val activityVM get() = _activityViewModel
+    //endregion
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +47,10 @@ class MainActivity : AppCompatActivity() {
 //                }
             }
         }
+
+        //region shared view model
+        _activityViewModel.value = "main activity"
+        //endregion
     }
 
     override fun onSupportNavigateUp(): Boolean {

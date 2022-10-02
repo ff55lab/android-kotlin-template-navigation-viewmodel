@@ -2,6 +2,7 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.BoldFragment">
 
     <data>
@@ -44,6 +45,37 @@
             android:layout_height="wrap_content"
             android:onClick="@{() -> boldFragment.showClickMe()}"
             android:text="@string/binding_field" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:dividerInsetStart="16dp"
+            app:dividerInsetEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/sharedValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> boldFragment.showSharedValue()}"
+            android:text="@string/show_shared_value" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> boldFragment.showFragmentValue()}"
+            android:text="@string/show_fragment_value" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> boldFragment.amendSharedValue()}"
+            android:text="@string/amend_shared_value" />
 
     </LinearLayout>
 
