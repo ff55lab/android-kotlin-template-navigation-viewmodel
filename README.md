@@ -1,9 +1,11 @@
-# Navigation Template
+# Navigation Template with View Model
 
 This app has the base navigation template to ease your initial development. By using `BottomNavigationView` and `Navigation Graph`, the app is able to navigate to different menu or to sub-screen through `Fragment`.
 
 Other available examples:
 + Within `Fragment`, accessing the binding view (`Button` `TextView`) from the `xml` layout.
++ Accessible `Shared View Model` between `Activity` and `Fragment`
++ Individual `View Model` within each `Fragment`
 
 ### Example of menu structure
 
@@ -11,7 +13,10 @@ Other available examples:
 	+ `Sub Screen` Bold 1
 	+ `Sub Screen` Bold 2
 	+ `Navigate` Italic menu
-	+ `Button` Click to change binding field text name
+	+ `Button: Click binding field` To change binding field text name
+	+ `Button: Show shared value` To show shared View Model value
+	+ `Button: Show fragment value` To show own Fragment View Model value
+	+ `Button: Amend shared value` To show amended shared View Model value
 + `Menu` Italic
 + `Menu` Parking
 + `Menu` Title
