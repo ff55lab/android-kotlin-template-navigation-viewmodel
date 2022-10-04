@@ -22,14 +22,14 @@ Other available examples:
 + `Menu` Title
 
 ## Navigation Graph
-![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/nav_graph_1.png)
+![](https://github.com/ff55lab/android-kotlin-template-navigation-viewmodel/raw/main/nav_graph_1.png)
 
 ## Nested Navigation Graph
-![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/nav_graph_2_nested.png)
+![](https://github.com/ff55lab/android-kotlin-template-navigation-viewmodel/raw/main/nav_graph_2_nested.png)
 
 ## Navigation UI
 
-![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/navigation_ui.png)
+![](https://github.com/ff55lab/android-kotlin-template-navigation-viewmodel/raw/main/navigation_ui.png)
 
 ## Tools
 
